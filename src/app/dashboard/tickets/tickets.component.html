@@ -3,7 +3,7 @@
         @for (ticket of tickets; track ticket.id) {
         <li>
             <!-- <app-ticket /> - {{ $first }} {{ $last }} {{ $odd }} {{ $even }} {{ $count }} {{ $count }} -->
-            <app-ticket [data]="ticket" />
+            <app-ticket [data]="ticket" (close)="onCloseTicket(ticket.id)" />
         </li>
         } @empty {
         <p>No tickets available</p>

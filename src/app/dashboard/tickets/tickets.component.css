@@ -1,14 +1,14 @@
 :host {
     display: flex;
     flex-direction: column;
-    gap: 1.5rem;
+    gap: 1.3rem;
 }
 
 :host ul {
     list-style: none;
     margin: 0;
     padding: 0;
-    width: 15rem;
+    width: 10rem;
 }
 
 :host li {
